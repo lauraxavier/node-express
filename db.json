@@ -1,0 +1,47 @@
+[
+  {
+    "nome": "Laura",
+    "matricula": "001",
+    "media": 10
+  },
+  {
+    "nome": "Pedro",
+    "matricula": "002",
+    "media": 9
+  },
+  {
+    "nome": "Mallu",
+    "matricula": "003",
+    "media": 7
+  },
+  {
+    "nome": "Bianca",
+    "matricula": "005",
+    "media": 5.5
+  },
+  {
+    "nome": "Vanessa",
+    "matricula": "006",
+    "media": 7.8
+  },
+  {
+    "nome": "Thomas",
+    "matricula": "007",
+    "media": 9.5
+  },
+  {
+    "nome": "Willy",
+    "matricula": "008",
+    "media": 4
+  },
+  {
+    "nome": "Sidelma",
+    "matricula": "009",
+    "media": 7.5
+  },
+  {
+    "nome": "Isabella Costa",
+    "matricula": "010",
+    "media": 8.7
+  }
+]

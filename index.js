@@ -2,9 +2,20 @@ const express = require("express");
 const app = express();
 const { router, alunos } = require("./alunos.js");
 
+const morgan = require("morgan");
+
+const fs = require("fs");
+const path = require("path");
+const accessLogStream = fs.createWriteStream(
+  path.join(__dirname, "access.log"),
+  { flags: "a" }
+);
+app.use(morgan("combined", { stream: accessLogStream }));
+
 app.use(express.json());
 
 app.use("/alunos", router);
+
 
 router.use((req, res, next) => {
   console.log("Time: ", Date.now());
